@@ -222,18 +222,18 @@ body {
 		<div class="card">
 			<div class="container-fliud">
 				<div class="wrapper row">
-					<div class="preview col-md-6">
+					<!-- <div class="preview col-md-6">
 
                         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="assets/img/Freya Vocal Sample Pack/shardul vocal pack-front.jpg" class="d-block w-100" alt="...">
+                                <img src="../assets/img/Freya Vocal Sample Pack/shardul vocal pack-front.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/Freya Vocal Sample Pack/shardul vocal pack-back.jpg" class="d-block w-100" alt="...">
+                                <img src="../assets/img/Freya Vocal Sample Pack/shardul vocal pack-back.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/img/Freya Vocal Sample Pack/shardul vocal pack f&b.jpg" class="d-block w-100" alt="...">
+                                <img src="../assets/img/Freya Vocal Sample Pack/shardul vocal pack f&b.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -246,7 +246,7 @@ body {
                             </button>
                         </div>
 						
-					</div>
+					</div> -->
 					<div class="details col-md-6">
 						<h3 class="product-title">Freya Vocal Sample Pack Vol 1</h3>
 						<p class="product-description">
@@ -261,76 +261,17 @@ In addition to this, and samples that are free to download and royalty free are 
 						
 						<div class="action">
 						</div>
-                <div> <a style=" width: 135px; background-color: #E19100; text-align: center; font-weight: 800; padding: 11px 0px; color: white; font-size: 12px; display: inline-block; text-decoration: none; " href='emailxcoll.php' > Buy Now </a> </div>
+            <form action='submitEmail.php' action='POST'>
+                <p>First name: <input required type='text' id="firstname" name='firstname' /></p>
+                <p>Last name: <input required type='text' id="lastname" name='lastname' /></p>
+                <p>Email: <input required type='email' name='email' /></p>
+                <input style=" width: 135px; background-color: #E19100; text-align: center; font-weight: 800; padding: 11px 0px; color: white; font-size: 12px; display: inline-block; text-decoration: none; " type='submit' value='Submit Email' />
+            </form> 
 					</div>
 				</div>
 			</div>
 		</div>
 
-        <!-- For demo purpose -->
-<div class="container py-5">
-    <div class="row text-center text-white">
-        <div class="col-lg-8 mx-auto">
-            <h1 class="display-4">Artists</h1>
-        </div>
-    </div>
-</div><!-- End -->
-
-
-<div class="container">
-    <div class="row text-center">
-
-        <!-- Team item -->
-        <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/img/artists/FreyaVocalSamplePack/shardul.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                <h5 class="mb-0">Shardul Suvarna Pathare</h5><span class="small text-uppercase text-muted"><br>Creator</span>
-                <ul class="social mb-0 list-inline mt-3">
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- End -->
-
-        <!-- Team item -->
-        <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/img/artists/FreyaVocalSamplePack/freya.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                <h5 class="mb-0">Shreya Sonawane Aka Freya </h5><span class="small text-uppercase text-muted">Vocal Artist</span>
-                <ul class="social mb-0 list-inline mt-3">
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- End -->
-
-        <!-- Team item -->
-        <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/img/artists/FreyaVocalSamplePack/hound.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                <h5 class="mb-0">Tanmay Sahakari aka Hound Music</h5><span class="small text-uppercase text-muted">Mix Engineer</span>
-                <ul class="social mb-0 list-inline mt-3">
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- End -->
-
-        <!-- Team item -->
-        <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/img/artists/FreyaVocalSamplePack/ogharsh.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                <h5 class="mb-0">Og Harsh</h5><span class="small text-uppercase text-muted"><br>Poster</span>
-                <ul class="social mb-0 list-inline mt-3">
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- End -->
     </div>
 </div>
 	</div>

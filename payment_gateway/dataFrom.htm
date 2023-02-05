@@ -8,7 +8,7 @@
 	};
 </script>
 <!-- Main CSS File -->
-<link href="assets/css/style.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
 </head>
 <body style="margin: 0;">
 	<div id="hero">
@@ -18,7 +18,7 @@
 		<!-- <table width="40%" height="100" border='1' align="center"></table> -->
 		
 		<table class="content-table" style="padding: 50px;" 
-		width="100%" height="100" border='1' align="center">
+		width="100%" height="100%" border='1' align="center">
 				<thead>
 				<!-- <tr>
 					<td>Parameter Name:</td><td>Parameter Value:</td>
@@ -33,19 +33,19 @@
 					<td>Merchant Id	:</td><td><input class="input-payment" id="contanth" type="text" name="merchant_id" value="1910441"/></td>
 				</tr>
 				<tr>
-					<td>Order Id	:</td><td><input class="input-payment" id="contanth"  type="text" name="order_id" value="123654789"/></td>
+					<td>Order Id	:</td><td><input class="input-payment" id="contanth"  type="text" name="order_id" value="123654789" readonly/></td>
 				</tr>
 				<tr>
-					<td>Amount	:</td><td><input class="input-payment" id="contanth"  type="text" name="amount" value="1.00" readonly/></td>
+					<td>Amount	:</td><td><input class="input-payment" id="contanth"  type="text" name="amount" value="415.00" readonly/></td>
 				</tr>
 				<tr hidden>
 					<td>Currency	:</td><td><input type="text" id="contanth"  name="currency" value="INR"/></td>
 				</tr>
 				<tr hidden>
-					<td>Redirect URL	:</td><td><input type="text" id="contanth"  name="redirect_url" value="http://localhost/IRRECORDINGS/payment_gateway/ccavResponseHandler.php"/></td>
+					<td>Redirect URL	:</td><td><input type="text" id="contanth"  name="redirect_url" value="http://localhost/ir_recordings-master/payment_gateway/ccavResponseHandler.php"/></td>
 				</tr>
 				 <tr hidden>
-					 <td>Cancel URL	:</td><td><input type="text" id="contanth" name="cancel_url" value="http://localhost/IRRECORDINGS/payment_gateway/ccavResponseHandler.php"/></td>
+					 <td>Cancel URL	:</td><td><input type="text" id="contanth" name="cancel_url" value="http://localhost/ir_recordings-master/payment_gateway/ccavResponseHandler.php"/></td>
 				 </tr>
 <!--			 <tr>
 					<td>Language	:</td><td><input type="text" name="language" value="EN"/></td>
@@ -122,9 +122,12 @@
 				<!-- <tr>
 					<td>Vault Info.	:</td><td><input type="text" name="customer_identifier" value=""/></td>
 				</tr> -->
+				<!-- <tr>
+					<td >Email Address :</td><td><input id="contanth" class="input-payment" type="email" name="email_address" value="" required/></td>
+				</tr>
 				<tr>
 					<td >Promo Code :</td><td><input id="contanth" class="input-payment" type="text" name="promo_code" value=""/></td>
-				</tr>
+				</tr> -->
 				<tr>
 					<td colspan="2" ><center><input class="btn-payment" TYPE="submit" value="CHECK OUT"></center></td>
 				</tr>
@@ -163,9 +166,10 @@
 		table.content-table {
   		border-collapse: collapse;
   		margin: 25px 0;
+		padding: 25px;
 		  font-size: 0.9em;
 		  min-width: 400px;
-		  border-radius: 5px 5px 0 0;
+		  border-radius: 5px 5px;
 		  overflow: hidden;
 		  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 		}
@@ -184,7 +188,7 @@
 
 		.content-table th,
 		.content-table td {
-		  padding: 10px 18px;
+		  padding: 18px 18px;
 		}
 
 		.content-table tbody td {
@@ -203,7 +207,7 @@
 			width: 100%;
 			align-items: center;
 			text-align: center;
-			background-color: #009879;
+			background-color: #1bac8f;
 			outline: none;
 			border-top-style: hidden;
         	border-right-style: hidden;
